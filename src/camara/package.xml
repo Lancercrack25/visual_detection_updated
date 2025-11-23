@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>camara</name>
+  <version>0.0.0</version>
+  <description>A ROS 2 package to capture and compress camera video</description>
+
+  <maintainer email="luis@todo.todo">luis</maintainer>
+  <license>MIT</license>
+
+  <!-- Herramienta de compilación -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Dependencias en tiempo de compilación y ejecución -->
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>image_transport</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

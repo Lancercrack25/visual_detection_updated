@@ -1,0 +1,43 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",                       // Incluir todo el espacio de trabajo
+                "/opt/ros/jazzy/include",                       // Ruta de los encabezados de ROS 2 Jazzy
+                "/opt/ros/jazzy/include/**",                    // Búsqueda recursiva dentro de ROS 2 Jazzy
+                //"${workspaceFolder}/src/**",                    // Archivos de cabecera dentro de tu proyecto
+                "/opt/ros/jazzy/include/rclcpp/**",             // Ruta para `rclcpp`
+                "/opt/ros/jazzy/include/sensor_msgs/**",        // Ruta para `sensor_msgs`
+                "/opt/ros/jazzy/include/std_msgs/**",           // Ruta para `std_msgs`
+                "/opt/ros/jazzy/include/image_transport/**",   // Ruta para `image_transport`
+                "/opt/ros/jazzy/include/cv_bridge/**",          // Ruta para `cv_bridge`
+                "/usr/include/opencv4/**"                       // Ruta para OpenCV
+            ],
+            "defines": [
+                "ROS2",                                          // Definir ROS 2 para algunos proyectos
+                "HAVE_OPENCV"                                    // Definir OpenCV si es necesario
+            ],
+            "compilerPath": "/usr/bin/g++",                     // Usar g++ como compilador C++
+            "cStandard": "c17",                                  // Estándar C
+            "cppStandard": "gnu++17",                            // Estándar C++
+            "intelliSenseMode": "linux-gcc-x64",                 // Modo de IntelliSense en Linux
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",                    // Directorios del espacio de trabajo
+                    "/opt/ros/jazzy/include",                    // Encabezados de ROS 2 Jazzy
+                    "/opt/ros/jazzy/include/**",                 // Recursivo en ROS 2 Jazzy
+                    "${workspaceFolder}/install/include/**",    // Rutas del espacio de trabajo después de la compilación
+                    "/opt/ros/jazzy/include/rclcpp/**",          // Ruta para `rclcpp`
+                    "/opt/ros/jazzy/include/sensor_msgs/**",     // Ruta para `sensor_msgs`
+                    "/opt/ros/jazzy/include/std_msgs/**",        // Ruta para `std_msgs`
+                    "/opt/ros/jazzy/include/image_transport/**",// Ruta para `image_transport`
+                    "/opt/ros/jazzy/include/cv_bridge/**",       // Ruta para `cv_bridge`
+                    "/usr/include/opencv4/**"                    // Ruta para OpenCV
+                ],
+                "limitSymbolsToIncludedHeaders": true          // Limitar la indexación a los archivos incluidos
+            }
+        }
+    ],
+    "version": 4
+}
