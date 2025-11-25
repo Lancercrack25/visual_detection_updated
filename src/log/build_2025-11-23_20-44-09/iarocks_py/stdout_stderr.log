@@ -1,0 +1,41 @@
+running egg_info
+creating ../build/iarocks_py/iarocks_py.egg-info
+writing ../build/iarocks_py/iarocks_py.egg-info/PKG-INFO
+writing dependency_links to ../build/iarocks_py/iarocks_py.egg-info/dependency_links.txt
+writing entry points to ../build/iarocks_py/iarocks_py.egg-info/entry_points.txt
+writing requirements to ../build/iarocks_py/iarocks_py.egg-info/requires.txt
+writing top-level names to ../build/iarocks_py/iarocks_py.egg-info/top_level.txt
+writing manifest file '../build/iarocks_py/iarocks_py.egg-info/SOURCES.txt'
+reading manifest file '../build/iarocks_py/iarocks_py.egg-info/SOURCES.txt'
+writing manifest file '../build/iarocks_py/iarocks_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/luis/my_ws/src/build/iarocks_py/build
+creating /home/luis/my_ws/src/build/iarocks_py/build/lib
+creating /home/luis/my_ws/src/build/iarocks_py/build/lib/iarocks_py
+copying iarocks_py/logger.py -> /home/luis/my_ws/src/build/iarocks_py/build/lib/iarocks_py
+copying iarocks_py/__init__.py -> /home/luis/my_ws/src/build/iarocks_py/build/lib/iarocks_py
+copying iarocks_py/detection_node.py -> /home/luis/my_ws/src/build/iarocks_py/build/lib/iarocks_py
+copying iarocks_py/run_with_venv.py -> /home/luis/my_ws/src/build/iarocks_py/build/lib/iarocks_py
+running install
+running install_lib
+creating /home/luis/my_ws/src/install/iarocks_py/lib/python3.12/site-packages/iarocks_py
+copying /home/luis/my_ws/src/build/iarocks_py/build/lib/iarocks_py/logger.py -> /home/luis/my_ws/src/install/iarocks_py/lib/python3.12/site-packages/iarocks_py
+copying /home/luis/my_ws/src/build/iarocks_py/build/lib/iarocks_py/__init__.py -> /home/luis/my_ws/src/install/iarocks_py/lib/python3.12/site-packages/iarocks_py
+copying /home/luis/my_ws/src/build/iarocks_py/build/lib/iarocks_py/detection_node.py -> /home/luis/my_ws/src/install/iarocks_py/lib/python3.12/site-packages/iarocks_py
+copying /home/luis/my_ws/src/build/iarocks_py/build/lib/iarocks_py/run_with_venv.py -> /home/luis/my_ws/src/install/iarocks_py/lib/python3.12/site-packages/iarocks_py
+byte-compiling /home/luis/my_ws/src/install/iarocks_py/lib/python3.12/site-packages/iarocks_py/logger.py to logger.cpython-312.pyc
+byte-compiling /home/luis/my_ws/src/install/iarocks_py/lib/python3.12/site-packages/iarocks_py/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/luis/my_ws/src/install/iarocks_py/lib/python3.12/site-packages/iarocks_py/detection_node.py to detection_node.cpython-312.pyc
+byte-compiling /home/luis/my_ws/src/install/iarocks_py/lib/python3.12/site-packages/iarocks_py/run_with_venv.py to run_with_venv.cpython-312.pyc
+running install_data
+creating /home/luis/my_ws/src/install/iarocks_py/share/ament_index
+creating /home/luis/my_ws/src/install/iarocks_py/share/ament_index/resource_index
+creating /home/luis/my_ws/src/install/iarocks_py/share/ament_index/resource_index/packages
+copying resource/iarocks_py -> /home/luis/my_ws/src/install/iarocks_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/luis/my_ws/src/install/iarocks_py/share/iarocks_py
+running install_egg_info
+Copying ../build/iarocks_py/iarocks_py.egg-info to /home/luis/my_ws/src/install/iarocks_py/lib/python3.12/site-packages/iarocks_py-0.0.0-py3.12.egg-info
+running install_scripts
+Installing detection_node script to /home/luis/my_ws/src/install/iarocks_py/lib/iarocks_py
+writing list of installed files to '/home/luis/my_ws/src/build/iarocks_py/install.log'

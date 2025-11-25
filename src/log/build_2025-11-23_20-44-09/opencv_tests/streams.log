@@ -1,0 +1,45 @@
+[0.960s] Invoking command in '/home/luis/my_ws/src/vision_opencv/opencv_tests': AMENT_PREFIX_PATH=/home/luis/my_ws/src/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luis/my_ws/src/install/cv_bridge:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luis/my_ws/src/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luis/my_ws/src/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luis/my_ws/src/install/opencv_tests/lib/python3.12/site-packages:/home/luis/my_ws/src/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/opencv_tests build --build-base /home/luis/my_ws/src/build/opencv_tests/build install --record /home/luis/my_ws/src/build/opencv_tests/install.log --single-version-externally-managed install_data
+[1.191s] running egg_info
+[1.192s] creating ../../build/opencv_tests/opencv_tests.egg-info
+[1.208s] writing ../../build/opencv_tests/opencv_tests.egg-info/PKG-INFO
+[1.209s] writing dependency_links to ../../build/opencv_tests/opencv_tests.egg-info/dependency_links.txt
+[1.209s] writing entry points to ../../build/opencv_tests/opencv_tests.egg-info/entry_points.txt
+[1.209s] writing requirements to ../../build/opencv_tests/opencv_tests.egg-info/requires.txt
+[1.209s] writing top-level names to ../../build/opencv_tests/opencv_tests.egg-info/top_level.txt
+[1.209s] writing manifest file '../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[1.244s] reading manifest file '../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[1.244s] writing manifest file '../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[1.244s] running build
+[1.244s] running build_py
+[1.245s] creating /home/luis/my_ws/src/build/opencv_tests/build
+[1.245s] creating /home/luis/my_ws/src/build/opencv_tests/build/lib
+[1.245s] creating /home/luis/my_ws/src/build/opencv_tests/build/lib/opencv_tests
+[1.245s] copying opencv_tests/source.py -> /home/luis/my_ws/src/build/opencv_tests/build/lib/opencv_tests
+[1.246s] copying opencv_tests/__init__.py -> /home/luis/my_ws/src/build/opencv_tests/build/lib/opencv_tests
+[1.246s] copying opencv_tests/rosfacedetect.py -> /home/luis/my_ws/src/build/opencv_tests/build/lib/opencv_tests
+[1.249s] copying opencv_tests/broadcast.py -> /home/luis/my_ws/src/build/opencv_tests/build/lib/opencv_tests
+[1.249s] running install
+[1.254s] running install_lib
+[1.273s] creating /home/luis/my_ws/src/install/opencv_tests/lib/python3.12/site-packages/opencv_tests
+[1.273s] copying /home/luis/my_ws/src/build/opencv_tests/build/lib/opencv_tests/source.py -> /home/luis/my_ws/src/install/opencv_tests/lib/python3.12/site-packages/opencv_tests
+[1.273s] copying /home/luis/my_ws/src/build/opencv_tests/build/lib/opencv_tests/__init__.py -> /home/luis/my_ws/src/install/opencv_tests/lib/python3.12/site-packages/opencv_tests
+[1.273s] copying /home/luis/my_ws/src/build/opencv_tests/build/lib/opencv_tests/rosfacedetect.py -> /home/luis/my_ws/src/install/opencv_tests/lib/python3.12/site-packages/opencv_tests
+[1.273s] copying /home/luis/my_ws/src/build/opencv_tests/build/lib/opencv_tests/broadcast.py -> /home/luis/my_ws/src/install/opencv_tests/lib/python3.12/site-packages/opencv_tests
+[1.273s] byte-compiling /home/luis/my_ws/src/install/opencv_tests/lib/python3.12/site-packages/opencv_tests/source.py to source.cpython-312.pyc
+[1.274s] byte-compiling /home/luis/my_ws/src/install/opencv_tests/lib/python3.12/site-packages/opencv_tests/__init__.py to __init__.cpython-312.pyc
+[1.274s] byte-compiling /home/luis/my_ws/src/install/opencv_tests/lib/python3.12/site-packages/opencv_tests/rosfacedetect.py to rosfacedetect.cpython-312.pyc
+[1.275s] byte-compiling /home/luis/my_ws/src/install/opencv_tests/lib/python3.12/site-packages/opencv_tests/broadcast.py to broadcast.cpython-312.pyc
+[1.275s] running install_data
+[1.275s] creating /home/luis/my_ws/src/install/opencv_tests/share/ament_index
+[1.276s] creating /home/luis/my_ws/src/install/opencv_tests/share/ament_index/resource_index
+[1.276s] creating /home/luis/my_ws/src/install/opencv_tests/share/ament_index/resource_index/packages
+[1.276s] copying resource/opencv_tests -> /home/luis/my_ws/src/install/opencv_tests/share/ament_index/resource_index/packages
+[1.276s] copying package.xml -> /home/luis/my_ws/src/install/opencv_tests/share/opencv_tests
+[1.276s] running install_egg_info
+[1.295s] Copying ../../build/opencv_tests/opencv_tests.egg-info to /home/luis/my_ws/src/install/opencv_tests/lib/python3.12/site-packages/opencv_tests-4.1.0-py3.12.egg-info
+[1.296s] running install_scripts
+[1.421s] Installing broadcast script to /home/luis/my_ws/src/install/opencv_tests/lib/opencv_tests
+[1.421s] Installing rosfacedetect script to /home/luis/my_ws/src/install/opencv_tests/lib/opencv_tests
+[1.421s] Installing source script to /home/luis/my_ws/src/install/opencv_tests/lib/opencv_tests
+[1.421s] writing list of installed files to '/home/luis/my_ws/src/build/opencv_tests/install.log'
+[1.450s] Invoked command in '/home/luis/my_ws/src/vision_opencv/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/luis/my_ws/src/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luis/my_ws/src/install/cv_bridge:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luis/my_ws/src/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luis/my_ws/src/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luis/my_ws/src/install/opencv_tests/lib/python3.12/site-packages:/home/luis/my_ws/src/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/opencv_tests build --build-base /home/luis/my_ws/src/build/opencv_tests/build install --record /home/luis/my_ws/src/build/opencv_tests/install.log --single-version-externally-managed install_data

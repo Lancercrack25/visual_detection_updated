@@ -1,0 +1,4 @@
+source;share/camara/local_setup.bash
+source;share/camara/local_setup.dsv
+source;share/camara/local_setup.sh
+source;share/camara/local_setup.zsh

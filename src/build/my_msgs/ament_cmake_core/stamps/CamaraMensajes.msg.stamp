@@ -1,0 +1,3 @@
+string camera_id
+string image_format
+sensor_msgs/CompressedImage image

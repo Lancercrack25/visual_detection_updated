@@ -1,0 +1,11 @@
+/home/luis/my_ws/src/build/rocket/CMakeFiles/uninstall.dir
+/home/luis/my_ws/src/build/rocket/CMakeFiles/rocket_uninstall.dir
+/home/luis/my_ws/src/build/rocket/CMakeFiles/rocks_node.dir
+/home/luis/my_ws/src/build/rocket/CMakeFiles/subscriberock.dir
+/home/luis/my_ws/src/build/rocket/CMakeFiles/test.dir
+/home/luis/my_ws/src/build/rocket/CMakeFiles/edit_cache.dir
+/home/luis/my_ws/src/build/rocket/CMakeFiles/rebuild_cache.dir
+/home/luis/my_ws/src/build/rocket/CMakeFiles/list_install_components.dir
+/home/luis/my_ws/src/build/rocket/CMakeFiles/install.dir
+/home/luis/my_ws/src/build/rocket/CMakeFiles/install/local.dir
+/home/luis/my_ws/src/build/rocket/CMakeFiles/install/strip.dir

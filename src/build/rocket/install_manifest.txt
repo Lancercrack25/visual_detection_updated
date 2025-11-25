@@ -1,0 +1,17 @@
+/home/luis/my_ws/src/install/rocket/lib/rocket/rocks_node
+/home/luis/my_ws/src/install/rocket/lib/rocket/subscriberock
+/home/luis/my_ws/src/install/rocket/share/ament_index/resource_index/package_run_dependencies/rocket
+/home/luis/my_ws/src/install/rocket/share/ament_index/resource_index/parent_prefix_path/rocket
+/home/luis/my_ws/src/install/rocket/share/rocket/environment/ament_prefix_path.sh
+/home/luis/my_ws/src/install/rocket/share/rocket/environment/ament_prefix_path.dsv
+/home/luis/my_ws/src/install/rocket/share/rocket/environment/path.sh
+/home/luis/my_ws/src/install/rocket/share/rocket/environment/path.dsv
+/home/luis/my_ws/src/install/rocket/share/rocket/local_setup.bash
+/home/luis/my_ws/src/install/rocket/share/rocket/local_setup.sh
+/home/luis/my_ws/src/install/rocket/share/rocket/local_setup.zsh
+/home/luis/my_ws/src/install/rocket/share/rocket/local_setup.dsv
+/home/luis/my_ws/src/install/rocket/share/rocket/package.dsv
+/home/luis/my_ws/src/install/rocket/share/ament_index/resource_index/packages/rocket
+/home/luis/my_ws/src/install/rocket/share/rocket/cmake/rocketConfig.cmake
+/home/luis/my_ws/src/install/rocket/share/rocket/cmake/rocketConfig-version.cmake
+/home/luis/my_ws/src/install/rocket/share/rocket/package.xml
