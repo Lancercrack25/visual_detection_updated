@@ -1,0 +1,60 @@
+[0.067s] Invoking command in '/home/luis/my_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis/my_ws/install/opencv_tests:/home/luis/my_ws/install/iarocks_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luis/my_ws/build/cv_bridge -- -j12 -l12
+[0.624s] [ 38%] Built target gtest
+[0.624s] [ 38%] Built target cv_bridge
+[0.624s] [ 44%] Built target gtest_main
+[0.624s] [ 44%] Built target ament_cmake_python_copy_cv_bridge
+[0.625s] [ 83%] Built target cv_bridge-utest
+[0.625s] [100%] Built target cv_bridge_boost
+[0.770s] running egg_info
+[0.825s] writing cv_bridge.egg-info/PKG-INFO
+[0.826s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[0.826s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[0.990s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[0.991s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[1.083s] [100%] Built target ament_cmake_python_build_cv_bridge_egg
+[1.111s] Invoked command in '/home/luis/my_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis/my_ws/install/opencv_tests:/home/luis/my_ws/install/iarocks_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luis/my_ws/build/cv_bridge -- -j12 -l12
+[1.114s] Invoking command in '/home/luis/my_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis/my_ws/install/opencv_tests:/home/luis/my_ws/install/iarocks_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luis/my_ws/build/cv_bridge
+[1.133s] -- Install configuration: ""
+[1.133s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[1.133s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[1.134s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-4.1.0-py3.12.egg-info
+[1.134s] -- Installing: /home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-4.1.0-py3.12.egg-info/PKG-INFO
+[1.134s] -- Installing: /home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-4.1.0-py3.12.egg-info/SOURCES.txt
+[1.135s] -- Installing: /home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-4.1.0-py3.12.egg-info/top_level.txt
+[1.135s] -- Installing: /home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-4.1.0-py3.12.egg-info/dependency_links.txt
+[1.135s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge
+[1.136s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/core.py
+[1.136s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/__init__.py
+[1.213s] Listing '/home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge'...
+[1.213s] Listing '/home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/boost'...
+[1.224s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/lib/libcv_bridge.so
+[1.225s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h
+[1.225s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/boost/cv_bridge_boost.so
+[1.226s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/include/cv_bridge
+[1.227s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/include/cv_bridge/cv_bridge
+[1.227s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_mat_sensor_msgs_image_type_adapter.hpp
+[1.227s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/include/cv_bridge/cv_bridge/visibility_control.h
+[1.228s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp
+[1.228s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.hpp
+[1.229s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/lib/libcv_bridge.so
+[1.230s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[1.230s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[1.231s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[1.231s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[1.231s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/share/cv_bridge/environment/path.sh
+[1.231s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[1.232s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/share/cv_bridge/local_setup.bash
+[1.232s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/share/cv_bridge/local_setup.sh
+[1.232s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[1.233s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[1.233s] -- Installing: /home/luis/my_ws/install/cv_bridge/share/cv_bridge/package.dsv
+[1.233s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[1.233s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake
+[1.233s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake
+[1.234s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[1.234s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.234s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[1.235s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[1.235s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[1.235s] -- Up-to-date: /home/luis/my_ws/install/cv_bridge/share/cv_bridge/package.xml
+[1.237s] Invoked command in '/home/luis/my_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis/my_ws/install/opencv_tests:/home/luis/my_ws/install/iarocks_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luis/my_ws/build/cv_bridge

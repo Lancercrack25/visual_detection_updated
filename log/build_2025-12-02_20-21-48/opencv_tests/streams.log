@@ -1,0 +1,23 @@
+[1.635s] Invoking command in '/home/luis/my_ws/src/vision_opencv/opencv_tests': AMENT_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luis/my_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luis/my_ws/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luis/my_ws/install/opencv_tests/lib/python3.12/site-packages:/home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/luis/my_ws/build/opencv_tests/build install --record /home/luis/my_ws/build/opencv_tests/install.log --single-version-externally-managed install_data
+[2.178s] running egg_info
+[2.217s] writing ../../../build/opencv_tests/opencv_tests.egg-info/PKG-INFO
+[2.218s] writing dependency_links to ../../../build/opencv_tests/opencv_tests.egg-info/dependency_links.txt
+[2.218s] writing entry points to ../../../build/opencv_tests/opencv_tests.egg-info/entry_points.txt
+[2.219s] writing requirements to ../../../build/opencv_tests/opencv_tests.egg-info/requires.txt
+[2.219s] writing top-level names to ../../../build/opencv_tests/opencv_tests.egg-info/top_level.txt
+[2.296s] reading manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[2.297s] writing manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[2.298s] running build
+[2.298s] running build_py
+[2.298s] running install
+[2.308s] running install_lib
+[2.348s] running install_data
+[2.349s] running install_egg_info
+[2.388s] removing '/home/luis/my_ws/install/opencv_tests/lib/python3.12/site-packages/opencv_tests-4.1.0-py3.12.egg-info' (and everything under it)
+[2.389s] Copying ../../../build/opencv_tests/opencv_tests.egg-info to /home/luis/my_ws/install/opencv_tests/lib/python3.12/site-packages/opencv_tests-4.1.0-py3.12.egg-info
+[2.392s] running install_scripts
+[2.658s] Installing broadcast script to /home/luis/my_ws/install/opencv_tests/lib/opencv_tests
+[2.659s] Installing rosfacedetect script to /home/luis/my_ws/install/opencv_tests/lib/opencv_tests
+[2.659s] Installing source script to /home/luis/my_ws/install/opencv_tests/lib/opencv_tests
+[2.659s] writing list of installed files to '/home/luis/my_ws/build/opencv_tests/install.log'
+[2.705s] Invoked command in '/home/luis/my_ws/src/vision_opencv/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luis/my_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luis/my_ws/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luis/my_ws/install/opencv_tests/lib/python3.12/site-packages:/home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/luis/my_ws/build/opencv_tests/build install --record /home/luis/my_ws/build/opencv_tests/install.log --single-version-externally-managed install_data

@@ -1,0 +1,20 @@
+[ 50%] Built target subscriberock
+[100%] Built target rocks_node
+-- Install configuration: ""
+-- Up-to-date: /home/luis/my_ws/install/rocket/lib/rocket/rocks_node
+-- Up-to-date: /home/luis/my_ws/install/rocket/lib/rocket/subscriberock
+-- Up-to-date: /home/luis/my_ws/install/rocket/share/ament_index/resource_index/package_run_dependencies/rocket
+-- Up-to-date: /home/luis/my_ws/install/rocket/share/ament_index/resource_index/parent_prefix_path/rocket
+-- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/environment/ament_prefix_path.sh
+-- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/environment/path.sh
+-- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/environment/path.dsv
+-- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/local_setup.bash
+-- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/local_setup.sh
+-- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/local_setup.zsh
+-- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/local_setup.dsv
+-- Installing: /home/luis/my_ws/install/rocket/share/rocket/package.dsv
+-- Up-to-date: /home/luis/my_ws/install/rocket/share/ament_index/resource_index/packages/rocket
+-- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/cmake/rocketConfig.cmake
+-- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/cmake/rocketConfig-version.cmake
+-- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/package.xml

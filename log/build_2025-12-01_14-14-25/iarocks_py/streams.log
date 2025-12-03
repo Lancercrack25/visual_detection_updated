@@ -1,0 +1,21 @@
+[1.620s] Invoking command in '/home/luis/my_ws/src/iarocks_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/luis/my_ws/build/iarocks_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luis/my_ws/install/iarocks_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/iarocks_py build --build-base /home/luis/my_ws/build/iarocks_py/build install --record /home/luis/my_ws/build/iarocks_py/install.log --single-version-externally-managed install_data
+[1.933s] running egg_info
+[1.956s] writing ../../build/iarocks_py/iarocks_py.egg-info/PKG-INFO
+[1.957s] writing dependency_links to ../../build/iarocks_py/iarocks_py.egg-info/dependency_links.txt
+[1.957s] writing entry points to ../../build/iarocks_py/iarocks_py.egg-info/entry_points.txt
+[1.957s] writing requirements to ../../build/iarocks_py/iarocks_py.egg-info/requires.txt
+[1.957s] writing top-level names to ../../build/iarocks_py/iarocks_py.egg-info/top_level.txt
+[2.001s] reading manifest file '../../build/iarocks_py/iarocks_py.egg-info/SOURCES.txt'
+[2.002s] writing manifest file '../../build/iarocks_py/iarocks_py.egg-info/SOURCES.txt'
+[2.002s] running build
+[2.003s] running build_py
+[2.003s] running install
+[2.008s] running install_lib
+[2.031s] running install_data
+[2.031s] running install_egg_info
+[2.054s] removing '/home/luis/my_ws/install/iarocks_py/lib/python3.12/site-packages/iarocks_py-0.0.0-py3.12.egg-info' (and everything under it)
+[2.054s] Copying ../../build/iarocks_py/iarocks_py.egg-info to /home/luis/my_ws/install/iarocks_py/lib/python3.12/site-packages/iarocks_py-0.0.0-py3.12.egg-info
+[2.055s] running install_scripts
+[2.207s] Installing detection_node script to /home/luis/my_ws/install/iarocks_py/lib/iarocks_py
+[2.207s] writing list of installed files to '/home/luis/my_ws/build/iarocks_py/install.log'
+[2.266s] Invoked command in '/home/luis/my_ws/src/iarocks_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/luis/my_ws/build/iarocks_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luis/my_ws/install/iarocks_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/iarocks_py build --build-base /home/luis/my_ws/build/iarocks_py/build install --record /home/luis/my_ws/build/iarocks_py/install.log --single-version-externally-managed install_data

@@ -1,0 +1,716 @@
+[0.250s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.250s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d82fa3a0b30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d82fa4c50a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d82fa4c50a0>>, mixin_verb=('build',))
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.320s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/luis/my_ws'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extension 'ros'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extensions ['cmake', 'python']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extension 'cmake'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extension 'python'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extensions ['python_setup_py']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extension 'python_setup_py'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/camara) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/camara) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/camara) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/camara) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/camara) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/camara) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/camara) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/camara) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/camara) by extension 'ros'
+[0.374s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camara' with type 'ros.ament_cmake' and name 'camara'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/iarocks_py) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/iarocks_py) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/iarocks_py) by extension 'ignore_ament_install'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/iarocks_py) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/iarocks_py) by extension 'colcon_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/iarocks_py) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/iarocks_py) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/iarocks_py) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/iarocks_py) by extension 'ros'
+[0.376s] DEBUG:colcon.colcon_core.package_identification:Package 'src/iarocks_py' with type 'ros.ament_python' and name 'iarocks_py'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/multicamera) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/multicamera) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/multicamera) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/multicamera) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/multicamera) by extension 'colcon_pkg'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/multicamera) by extensions ['colcon_meta']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/multicamera) by extension 'colcon_meta'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/multicamera) by extensions ['ros']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/multicamera) by extension 'ros'
+[0.379s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multicamera' with type 'ros.ament_cmake' and name 'multicamera'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_msgs) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_msgs) by extension 'ignore_ament_install'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_msgs) by extensions ['colcon_pkg']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_msgs) by extension 'colcon_pkg'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_msgs) by extensions ['colcon_meta']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_msgs) by extension 'colcon_meta'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_msgs) by extensions ['ros']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_msgs) by extension 'ros'
+[0.382s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_msgs' with type 'ros.ament_cmake' and name 'my_msgs'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/rocket) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/rocket) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/rocket) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/rocket) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/rocket) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/rocket) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/rocket) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/rocket) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/rocket) by extension 'ros'
+[0.384s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rocket' with type 'ros.ament_cmake' and name 'rocket'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore_ament_install'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_pkg']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_pkg'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_meta']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_meta'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ros']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ros'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['cmake', 'python']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'cmake'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['python_setup_py']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python_setup_py'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge_backup) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge_backup) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge_backup) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge_backup) by extensions ['colcon_pkg']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge_backup) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge_backup) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge_backup) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge_backup) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge_backup) by extension 'ros'
+[0.388s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/cv_bridge_backup' with type 'ros.ament_cmake' and name 'cv_bridge'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_pkg'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_meta']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ros'
+[0.390s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/image_geometry' with type 'ros.ament_cmake' and name 'image_geometry'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ros'
+[0.391s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/opencv_tests' with type 'ros.ament_python' and name 'opencv_tests'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ros'
+[0.393s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/vision_opencv' with type 'ros.ament_cmake' and name 'vision_opencv'
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.437s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/jazzy
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.502s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'image_geometry' is in: /opt/ros/jazzy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding image_geometry
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'camara' build argument 'cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'camara' build argument 'cmake_target' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'camara' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'camara' build argument 'cmake_clean_cache' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'camara' build argument 'cmake_clean_first' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'camara' build argument 'cmake_force_configure' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'camara' build argument 'ament_cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'camara' build argument 'catkin_cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'camara' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.504s] DEBUG:colcon.colcon_core.verb:Building package 'camara' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luis/my_ws/build/camara', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luis/my_ws/install/camara', 'merge_install': False, 'path': '/home/luis/my_ws/src/camara', 'symlink_install': False, 'test_result_base': None}
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.505s] DEBUG:colcon.colcon_core.verb:Building package 'cv_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luis/my_ws/build/cv_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luis/my_ws/install/cv_bridge', 'merge_install': False, 'path': '/home/luis/my_ws/src/vision_opencv/cv_bridge_backup', 'symlink_install': False, 'test_result_base': None}
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'iarocks_py' build argument 'cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'iarocks_py' build argument 'cmake_target' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'iarocks_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'iarocks_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'iarocks_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'iarocks_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'iarocks_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'iarocks_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'iarocks_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.506s] DEBUG:colcon.colcon_core.verb:Building package 'iarocks_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luis/my_ws/build/iarocks_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luis/my_ws/install/iarocks_py', 'merge_install': False, 'path': '/home/luis/my_ws/src/iarocks_py', 'symlink_install': False, 'test_result_base': None}
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_target' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.507s] DEBUG:colcon.colcon_core.verb:Building package 'image_geometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luis/my_ws/build/image_geometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luis/my_ws/install/image_geometry', 'merge_install': False, 'path': '/home/luis/my_ws/src/vision_opencv/image_geometry', 'symlink_install': False, 'test_result_base': None}
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'my_msgs' build argument 'cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'my_msgs' build argument 'cmake_target' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'my_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'my_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'my_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'my_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'my_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'my_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'my_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.508s] DEBUG:colcon.colcon_core.verb:Building package 'my_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luis/my_ws/build/my_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luis/my_ws/install/my_msgs', 'merge_install': False, 'path': '/home/luis/my_ws/src/my_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'rocket' build argument 'cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'rocket' build argument 'cmake_target' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'rocket' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'rocket' build argument 'cmake_clean_cache' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'rocket' build argument 'cmake_clean_first' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'rocket' build argument 'cmake_force_configure' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'rocket' build argument 'ament_cmake_args' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'rocket' build argument 'catkin_cmake_args' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'rocket' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.509s] DEBUG:colcon.colcon_core.verb:Building package 'rocket' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luis/my_ws/build/rocket', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luis/my_ws/install/rocket', 'merge_install': False, 'path': '/home/luis/my_ws/src/rocket', 'symlink_install': False, 'test_result_base': None}
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'multicamera' build argument 'cmake_args' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'multicamera' build argument 'cmake_target' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'multicamera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'multicamera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'multicamera' build argument 'cmake_clean_first' from command line to 'False'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'multicamera' build argument 'cmake_force_configure' from command line to 'False'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'multicamera' build argument 'ament_cmake_args' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'multicamera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'multicamera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.509s] DEBUG:colcon.colcon_core.verb:Building package 'multicamera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luis/my_ws/build/multicamera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luis/my_ws/install/multicamera', 'merge_install': False, 'path': '/home/luis/my_ws/src/multicamera', 'symlink_install': False, 'test_result_base': None}
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_args' from command line to 'None'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_target' from command line to 'None'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_clean_cache' from command line to 'False'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_clean_first' from command line to 'False'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_force_configure' from command line to 'False'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'ament_cmake_args' from command line to 'None'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'catkin_cmake_args' from command line to 'None'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.510s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_tests' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luis/my_ws/build/opencv_tests', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luis/my_ws/install/opencv_tests', 'merge_install': False, 'path': '/home/luis/my_ws/src/vision_opencv/opencv_tests', 'symlink_install': False, 'test_result_base': None}
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_args' from command line to 'None'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_target' from command line to 'None'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_clean_first' from command line to 'False'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_force_configure' from command line to 'False'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'ament_cmake_args' from command line to 'None'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.511s] DEBUG:colcon.colcon_core.verb:Building package 'vision_opencv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luis/my_ws/build/vision_opencv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luis/my_ws/install/vision_opencv', 'merge_install': False, 'path': '/home/luis/my_ws/src/vision_opencv/vision_opencv', 'symlink_install': False, 'test_result_base': None}
+[0.511s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.513s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.513s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luis/my_ws/src/vision_opencv/cv_bridge_backup' with build type 'ament_cmake'
+[0.513s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luis/my_ws/src/vision_opencv/cv_bridge_backup'
+[0.522s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.522s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.522s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.527s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luis/my_ws/src/vision_opencv/image_geometry' with build type 'ament_cmake'
+[0.527s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luis/my_ws/src/vision_opencv/image_geometry'
+[0.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.532s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luis/my_ws/src/camara' with build type 'ament_cmake'
+[0.532s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luis/my_ws/src/camara'
+[0.532s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.533s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.537s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/luis/my_ws/src/iarocks_py' with build type 'ament_python'
+[0.537s] Level 1:colcon.colcon_core.shell:create_environment_hook('iarocks_py', 'ament_prefix_path')
+[0.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/iarocks_py/share/iarocks_py/hook/ament_prefix_path.ps1'
+[0.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/iarocks_py/share/iarocks_py/hook/ament_prefix_path.dsv'
+[0.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/iarocks_py/share/iarocks_py/hook/ament_prefix_path.sh'
+[0.541s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.541s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.545s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luis/my_ws/src/my_msgs' with build type 'ament_cmake'
+[0.545s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luis/my_ws/src/my_msgs'
+[0.546s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.546s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.551s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luis/my_ws/src/rocket' with build type 'ament_cmake'
+[0.551s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luis/my_ws/src/rocket'
+[0.551s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.551s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luis/my_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luis/my_ws/build/cv_bridge -- -j12 -l12
+[0.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luis/my_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luis/my_ws/build/image_geometry -- -j12 -l12
+[0.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luis/my_ws/build/camara': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luis/my_ws/build/camara -- -j12 -l12
+[0.993s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/luis/my_ws/src/iarocks_py'
+[0.993s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.993s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luis/my_ws/build/my_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luis/my_ws/build/my_msgs -- -j12 -l12
+[1.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luis/my_ws/build/rocket': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luis/my_ws/build/rocket -- -j12 -l12
+[1.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luis/my_ws/build/camara' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luis/my_ws/build/camara -- -j12 -l12
+[1.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luis/my_ws/build/camara': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luis/my_ws/build/camara
+[1.082s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camara)
+[1.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luis/my_ws/build/camara' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luis/my_ws/build/camara
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/camara' for CMake module files
+[1.093s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/camara' for CMake config files
+[1.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('camara', 'cmake_prefix_path')
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/camara/share/camara/hook/cmake_prefix_path.ps1'
+[1.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/camara/share/camara/hook/cmake_prefix_path.dsv'
+[1.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/camara/share/camara/hook/cmake_prefix_path.sh'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/camara/lib'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/camara/bin'
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/camara/lib/pkgconfig/camara.pc'
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/camara/lib/python3.12/site-packages'
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/camara/bin'
+[1.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/camara/share/camara/package.ps1'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luis/my_ws/install/camara/share/camara/package.dsv'
+[1.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/camara/share/camara/package.sh'
+[1.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/camara/share/camara/package.bash'
+[1.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/camara/share/camara/package.zsh'
+[1.105s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luis/my_ws/install/camara/share/colcon-core/packages/camara)
+[1.107s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camara)
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/camara' for CMake module files
+[1.108s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/camara' for CMake config files
+[1.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('camara', 'cmake_prefix_path')
+[1.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/camara/share/camara/hook/cmake_prefix_path.ps1'
+[1.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/camara/share/camara/hook/cmake_prefix_path.dsv'
+[1.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/camara/share/camara/hook/cmake_prefix_path.sh'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/camara/lib'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/camara/bin'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/camara/lib/pkgconfig/camara.pc'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/camara/lib/python3.12/site-packages'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/camara/bin'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/camara/share/camara/package.ps1'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luis/my_ws/install/camara/share/camara/package.dsv'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/camara/share/camara/package.sh'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/camara/share/camara/package.bash'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/camara/share/camara/package.zsh'
+[1.118s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luis/my_ws/install/camara/share/colcon-core/packages/camara)
+[1.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luis/my_ws/build/rocket' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luis/my_ws/build/rocket -- -j12 -l12
+[1.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luis/my_ws/build/rocket': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luis/my_ws/build/rocket
+[1.229s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rocket)
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/rocket' for CMake module files
+[1.231s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/rocket' for CMake config files
+[1.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luis/my_ws/build/rocket' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luis/my_ws/build/rocket
+[1.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('rocket', 'cmake_prefix_path')
+[1.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/rocket/share/rocket/hook/cmake_prefix_path.ps1'
+[1.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/rocket/share/rocket/hook/cmake_prefix_path.dsv'
+[1.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/rocket/share/rocket/hook/cmake_prefix_path.sh'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/rocket/lib'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/rocket/bin'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/rocket/lib/pkgconfig/rocket.pc'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/rocket/lib/python3.12/site-packages'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/rocket/bin'
+[1.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/rocket/share/rocket/package.ps1'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luis/my_ws/install/rocket/share/rocket/package.dsv'
+[1.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/rocket/share/rocket/package.sh'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/rocket/share/rocket/package.bash'
+[1.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/rocket/share/rocket/package.zsh'
+[1.242s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luis/my_ws/install/rocket/share/colcon-core/packages/rocket)
+[1.243s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rocket)
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/rocket' for CMake module files
+[1.245s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/rocket' for CMake config files
+[1.245s] Level 1:colcon.colcon_core.shell:create_environment_hook('rocket', 'cmake_prefix_path')
+[1.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/rocket/share/rocket/hook/cmake_prefix_path.ps1'
+[1.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/rocket/share/rocket/hook/cmake_prefix_path.dsv'
+[1.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/rocket/share/rocket/hook/cmake_prefix_path.sh'
+[1.251s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/rocket/lib'
+[1.252s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/rocket/bin'
+[1.252s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/rocket/lib/pkgconfig/rocket.pc'
+[1.252s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/rocket/lib/python3.12/site-packages'
+[1.253s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/rocket/bin'
+[1.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/rocket/share/rocket/package.ps1'
+[1.254s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luis/my_ws/install/rocket/share/rocket/package.dsv'
+[1.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/rocket/share/rocket/package.sh'
+[1.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/rocket/share/rocket/package.bash'
+[1.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/rocket/share/rocket/package.zsh'
+[1.258s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luis/my_ws/install/rocket/share/colcon-core/packages/rocket)
+[1.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luis/my_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luis/my_ws/build/image_geometry -- -j12 -l12
+[1.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luis/my_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luis/my_ws/build/image_geometry
+[1.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luis/my_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luis/my_ws/build/cv_bridge -- -j12 -l12
+[1.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luis/my_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luis/my_ws/build/cv_bridge
+[1.472s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_geometry)
+[1.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luis/my_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luis/my_ws/build/image_geometry
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/image_geometry' for CMake module files
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/image_geometry' for CMake config files
+[1.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'cmake_prefix_path')
+[1.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.ps1'
+[1.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.dsv'
+[1.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.sh'
+[1.479s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/image_geometry/lib'
+[1.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'ld_library_path_lib')
+[1.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.ps1'
+[1.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.dsv'
+[1.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.sh'
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/image_geometry/bin'
+[1.486s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/image_geometry/lib/pkgconfig/image_geometry.pc'
+[1.486s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/image_geometry/lib/python3.12/site-packages'
+[1.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'pythonpath')
+[1.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/image_geometry/share/image_geometry/hook/pythonpath.ps1'
+[1.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/image_geometry/share/image_geometry/hook/pythonpath.dsv'
+[1.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/image_geometry/share/image_geometry/hook/pythonpath.sh'
+[1.493s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/image_geometry/bin'
+[1.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/image_geometry/share/image_geometry/package.ps1'
+[1.494s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luis/my_ws/install/image_geometry/share/image_geometry/package.dsv'
+[1.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/image_geometry/share/image_geometry/package.sh'
+[1.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/image_geometry/share/image_geometry/package.bash'
+[1.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/image_geometry/share/image_geometry/package.zsh'
+[1.496s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luis/my_ws/install/image_geometry/share/colcon-core/packages/image_geometry)
+[1.497s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_geometry)
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/image_geometry' for CMake module files
+[1.498s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/image_geometry' for CMake config files
+[1.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'cmake_prefix_path')
+[1.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.ps1'
+[1.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.dsv'
+[1.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.sh'
+[1.500s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/image_geometry/lib'
+[1.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'ld_library_path_lib')
+[1.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.ps1'
+[1.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.dsv'
+[1.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.sh'
+[1.503s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/image_geometry/bin'
+[1.503s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/image_geometry/lib/pkgconfig/image_geometry.pc'
+[1.503s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/image_geometry/lib/python3.12/site-packages'
+[1.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'pythonpath')
+[1.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/image_geometry/share/image_geometry/hook/pythonpath.ps1'
+[1.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/image_geometry/share/image_geometry/hook/pythonpath.dsv'
+[1.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/image_geometry/share/image_geometry/hook/pythonpath.sh'
+[1.505s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/image_geometry/bin'
+[1.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/image_geometry/share/image_geometry/package.ps1'
+[1.506s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luis/my_ws/install/image_geometry/share/image_geometry/package.dsv'
+[1.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/image_geometry/share/image_geometry/package.sh'
+[1.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/image_geometry/share/image_geometry/package.bash'
+[1.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/image_geometry/share/image_geometry/package.zsh'
+[1.509s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luis/my_ws/install/image_geometry/share/colcon-core/packages/image_geometry)
+[1.513s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_bridge)
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/cv_bridge' for CMake module files
+[1.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luis/my_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luis/my_ws/build/cv_bridge
+[1.515s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/cv_bridge' for CMake config files
+[1.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'cmake_prefix_path')
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.ps1'
+[1.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.dsv'
+[1.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.sh'
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/cv_bridge/lib'
+[1.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'ld_library_path_lib')
+[1.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.ps1'
+[1.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.dsv'
+[1.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.sh'
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/cv_bridge/bin'
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/cv_bridge/lib/pkgconfig/cv_bridge.pc'
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages'
+[1.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'pythonpath')
+[1.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.ps1'
+[1.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.dsv'
+[1.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.sh'
+[1.524s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/cv_bridge/bin'
+[1.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/package.ps1'
+[1.525s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/package.dsv'
+[1.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/package.sh'
+[1.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/package.bash'
+[1.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/package.zsh'
+[1.528s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luis/my_ws/install/cv_bridge/share/colcon-core/packages/cv_bridge)
+[1.529s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_bridge)
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/cv_bridge' for CMake module files
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/cv_bridge' for CMake config files
+[1.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'cmake_prefix_path')
+[1.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.ps1'
+[1.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.dsv'
+[1.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.sh'
+[1.533s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/cv_bridge/lib'
+[1.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'ld_library_path_lib')
+[1.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.ps1'
+[1.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.dsv'
+[1.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.sh'
+[1.536s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/cv_bridge/bin'
+[1.536s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/cv_bridge/lib/pkgconfig/cv_bridge.pc'
+[1.536s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages'
+[1.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'pythonpath')
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.ps1'
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.dsv'
+[1.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.sh'
+[1.539s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/cv_bridge/bin'
+[1.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/package.ps1'
+[1.540s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/package.dsv'
+[1.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/package.sh'
+[1.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/package.bash'
+[1.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/cv_bridge/share/cv_bridge/package.zsh'
+[1.543s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luis/my_ws/install/cv_bridge/share/colcon-core/packages/cv_bridge)
+[1.544s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luis/my_ws/src/multicamera' with build type 'ament_cmake'
+[1.544s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luis/my_ws/src/multicamera'
+[1.545s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.545s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.549s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/luis/my_ws/src/vision_opencv/opencv_tests' with build type 'ament_python'
+[1.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tests', 'ament_prefix_path')
+[1.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/opencv_tests/share/opencv_tests/hook/ament_prefix_path.ps1'
+[1.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/opencv_tests/share/opencv_tests/hook/ament_prefix_path.dsv'
+[1.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/opencv_tests/share/opencv_tests/hook/ament_prefix_path.sh'
+[1.552s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.552s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.557s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luis/my_ws/src/vision_opencv/vision_opencv' with build type 'ament_cmake'
+[1.557s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luis/my_ws/src/vision_opencv/vision_opencv'
+[1.557s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.557s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luis/my_ws/build/multicamera': AMENT_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luis/my_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/luis/my_ws/build/multicamera -- -j12 -l12
+[1.943s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/luis/my_ws/src/vision_opencv/opencv_tests'
+[1.943s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.943s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luis/my_ws/build/multicamera' returned '0': AMENT_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luis/my_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/luis/my_ws/build/multicamera -- -j12 -l12
+[1.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luis/my_ws/build/multicamera': AMENT_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luis/my_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/luis/my_ws/build/multicamera
+[1.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luis/my_ws/build/vision_opencv': AMENT_PREFIX_PATH=/home/luis/my_ws/install/image_geometry:/home/luis/my_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luis/my_ws/install/image_geometry:/home/luis/my_ws/install/cv_bridge:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luis/my_ws/install/image_geometry/lib:/home/luis/my_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luis/my_ws/install/image_geometry/lib/python3.12/site-packages:/home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/luis/my_ws/build/vision_opencv -- -j12 -l12
+[1.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luis/my_ws/build/my_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luis/my_ws/build/my_msgs -- -j12 -l12
+[1.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luis/my_ws/build/my_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luis/my_ws/build/my_msgs
+[1.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multicamera)
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/multicamera' for CMake module files
+[1.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luis/my_ws/build/multicamera' returned '0': AMENT_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luis/my_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/luis/my_ws/build/multicamera
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/multicamera' for CMake config files
+[1.994s] Level 1:colcon.colcon_core.shell:create_environment_hook('multicamera', 'cmake_prefix_path')
+[1.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/multicamera/share/multicamera/hook/cmake_prefix_path.ps1'
+[1.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/multicamera/share/multicamera/hook/cmake_prefix_path.dsv'
+[1.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/multicamera/share/multicamera/hook/cmake_prefix_path.sh'
+[1.997s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/multicamera/lib'
+[1.997s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/multicamera/bin'
+[1.997s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/multicamera/lib/pkgconfig/multicamera.pc'
+[1.998s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/multicamera/lib/python3.12/site-packages'
+[1.998s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/multicamera/bin'
+[1.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/multicamera/share/multicamera/package.ps1'
+[1.999s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luis/my_ws/install/multicamera/share/multicamera/package.dsv'
+[1.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/multicamera/share/multicamera/package.sh'
+[2.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/multicamera/share/multicamera/package.bash'
+[2.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/multicamera/share/multicamera/package.zsh'
+[2.001s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luis/my_ws/install/multicamera/share/colcon-core/packages/multicamera)
+[2.002s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multicamera)
+[2.002s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/multicamera' for CMake module files
+[2.003s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/multicamera' for CMake config files
+[2.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('multicamera', 'cmake_prefix_path')
+[2.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/multicamera/share/multicamera/hook/cmake_prefix_path.ps1'
+[2.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/multicamera/share/multicamera/hook/cmake_prefix_path.dsv'
+[2.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/multicamera/share/multicamera/hook/cmake_prefix_path.sh'
+[2.006s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/multicamera/lib'
+[2.006s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/multicamera/bin'
+[2.006s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/multicamera/lib/pkgconfig/multicamera.pc'
+[2.006s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/multicamera/lib/python3.12/site-packages'
+[2.007s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/multicamera/bin'
+[2.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/multicamera/share/multicamera/package.ps1'
+[2.008s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luis/my_ws/install/multicamera/share/multicamera/package.dsv'
+[2.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/multicamera/share/multicamera/package.sh'
+[2.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/multicamera/share/multicamera/package.bash'
+[2.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/multicamera/share/multicamera/package.zsh'
+[2.010s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luis/my_ws/install/multicamera/share/colcon-core/packages/multicamera)
+[2.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luis/my_ws/build/vision_opencv' returned '0': AMENT_PREFIX_PATH=/home/luis/my_ws/install/image_geometry:/home/luis/my_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luis/my_ws/install/image_geometry:/home/luis/my_ws/install/cv_bridge:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luis/my_ws/install/image_geometry/lib:/home/luis/my_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luis/my_ws/install/image_geometry/lib/python3.12/site-packages:/home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/luis/my_ws/build/vision_opencv -- -j12 -l12
+[2.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luis/my_ws/build/vision_opencv': AMENT_PREFIX_PATH=/home/luis/my_ws/install/image_geometry:/home/luis/my_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luis/my_ws/install/image_geometry:/home/luis/my_ws/install/cv_bridge:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luis/my_ws/install/image_geometry/lib:/home/luis/my_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luis/my_ws/install/image_geometry/lib/python3.12/site-packages:/home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/luis/my_ws/build/vision_opencv
+[2.052s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_opencv)
+[2.052s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/vision_opencv' for CMake module files
+[2.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luis/my_ws/build/vision_opencv' returned '0': AMENT_PREFIX_PATH=/home/luis/my_ws/install/image_geometry:/home/luis/my_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luis/my_ws/install/image_geometry:/home/luis/my_ws/install/cv_bridge:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luis/my_ws/install/image_geometry/lib:/home/luis/my_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luis/my_ws/install/image_geometry/lib/python3.12/site-packages:/home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/luis/my_ws/build/vision_opencv
+[2.054s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/vision_opencv' for CMake config files
+[2.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_opencv', 'cmake_prefix_path')
+[2.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.ps1'
+[2.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.dsv'
+[2.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.sh'
+[2.057s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/vision_opencv/bin'
+[2.057s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/vision_opencv/lib/pkgconfig/vision_opencv.pc'
+[2.057s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/vision_opencv/lib/python3.12/site-packages'
+[2.058s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/vision_opencv/bin'
+[2.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/vision_opencv/share/vision_opencv/package.ps1'
+[2.060s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luis/my_ws/install/vision_opencv/share/vision_opencv/package.dsv'
+[2.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/vision_opencv/share/vision_opencv/package.sh'
+[2.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/vision_opencv/share/vision_opencv/package.bash'
+[2.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/vision_opencv/share/vision_opencv/package.zsh'
+[2.071s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luis/my_ws/install/vision_opencv/share/colcon-core/packages/vision_opencv)
+[2.072s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_opencv)
+[2.073s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/vision_opencv' for CMake module files
+[2.073s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/vision_opencv' for CMake config files
+[2.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_opencv', 'cmake_prefix_path')
+[2.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.ps1'
+[2.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.dsv'
+[2.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.sh'
+[2.076s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/vision_opencv/bin'
+[2.076s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/vision_opencv/lib/pkgconfig/vision_opencv.pc'
+[2.076s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/vision_opencv/lib/python3.12/site-packages'
+[2.076s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/vision_opencv/bin'
+[2.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/vision_opencv/share/vision_opencv/package.ps1'
+[2.077s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luis/my_ws/install/vision_opencv/share/vision_opencv/package.dsv'
+[2.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/vision_opencv/share/vision_opencv/package.sh'
+[2.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/vision_opencv/share/vision_opencv/package.bash'
+[2.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/vision_opencv/share/vision_opencv/package.zsh'
+[2.080s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luis/my_ws/install/vision_opencv/share/colcon-core/packages/vision_opencv)
+[2.082s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_msgs)
+[2.083s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/my_msgs' for CMake module files
+[2.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luis/my_ws/build/my_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luis/my_ws/build/my_msgs
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/my_msgs' for CMake config files
+[2.085s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_msgs', 'cmake_prefix_path')
+[2.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/my_msgs/share/my_msgs/hook/cmake_prefix_path.ps1'
+[2.086s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/my_msgs/share/my_msgs/hook/cmake_prefix_path.dsv'
+[2.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/my_msgs/share/my_msgs/hook/cmake_prefix_path.sh'
+[2.088s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/my_msgs/lib'
+[2.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_msgs', 'ld_library_path_lib')
+[2.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/my_msgs/share/my_msgs/hook/ld_library_path_lib.ps1'
+[2.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/my_msgs/share/my_msgs/hook/ld_library_path_lib.dsv'
+[2.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/my_msgs/share/my_msgs/hook/ld_library_path_lib.sh'
+[2.090s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/my_msgs/bin'
+[2.090s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/my_msgs/lib/pkgconfig/my_msgs.pc'
+[2.090s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/my_msgs/lib/python3.12/site-packages'
+[2.091s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_msgs', 'pythonpath')
+[2.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/my_msgs/share/my_msgs/hook/pythonpath.ps1'
+[2.091s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/my_msgs/share/my_msgs/hook/pythonpath.dsv'
+[2.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/my_msgs/share/my_msgs/hook/pythonpath.sh'
+[2.093s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/my_msgs/bin'
+[2.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/my_msgs/share/my_msgs/package.ps1'
+[2.094s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luis/my_ws/install/my_msgs/share/my_msgs/package.dsv'
+[2.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/my_msgs/share/my_msgs/package.sh'
+[2.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/my_msgs/share/my_msgs/package.bash'
+[2.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/my_msgs/share/my_msgs/package.zsh'
+[2.097s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luis/my_ws/install/my_msgs/share/colcon-core/packages/my_msgs)
+[2.098s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_msgs)
+[2.098s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/my_msgs' for CMake module files
+[2.099s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/my_msgs' for CMake config files
+[2.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_msgs', 'cmake_prefix_path')
+[2.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/my_msgs/share/my_msgs/hook/cmake_prefix_path.ps1'
+[2.100s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/my_msgs/share/my_msgs/hook/cmake_prefix_path.dsv'
+[2.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/my_msgs/share/my_msgs/hook/cmake_prefix_path.sh'
+[2.102s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/my_msgs/lib'
+[2.102s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_msgs', 'ld_library_path_lib')
+[2.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/my_msgs/share/my_msgs/hook/ld_library_path_lib.ps1'
+[2.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/my_msgs/share/my_msgs/hook/ld_library_path_lib.dsv'
+[2.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/my_msgs/share/my_msgs/hook/ld_library_path_lib.sh'
+[2.104s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/my_msgs/bin'
+[2.104s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/my_msgs/lib/pkgconfig/my_msgs.pc'
+[2.104s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/my_msgs/lib/python3.12/site-packages'
+[2.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_msgs', 'pythonpath')
+[2.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/my_msgs/share/my_msgs/hook/pythonpath.ps1'
+[2.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/my_msgs/share/my_msgs/hook/pythonpath.dsv'
+[2.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/my_msgs/share/my_msgs/hook/pythonpath.sh'
+[2.106s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/my_msgs/bin'
+[2.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/my_msgs/share/my_msgs/package.ps1'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luis/my_ws/install/my_msgs/share/my_msgs/package.dsv'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/my_msgs/share/my_msgs/package.sh'
+[2.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/my_msgs/share/my_msgs/package.bash'
+[2.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/my_msgs/share/my_msgs/package.zsh'
+[2.110s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luis/my_ws/install/my_msgs/share/colcon-core/packages/my_msgs)
+[2.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luis/my_ws/src/iarocks_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/luis/my_ws/build/iarocks_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luis/my_ws/install/iarocks_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/iarocks_py build --build-base /home/luis/my_ws/build/iarocks_py/build install --record /home/luis/my_ws/build/iarocks_py/install.log --single-version-externally-managed install_data
+[3.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luis/my_ws/src/vision_opencv/opencv_tests': AMENT_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luis/my_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luis/my_ws/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luis/my_ws/install/opencv_tests/lib/python3.12/site-packages:/home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/luis/my_ws/build/opencv_tests/build install --record /home/luis/my_ws/build/opencv_tests/install.log --single-version-externally-managed install_data
+[3.192s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/iarocks_py' for CMake module files
+[3.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luis/my_ws/src/iarocks_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/luis/my_ws/build/iarocks_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luis/my_ws/install/iarocks_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/iarocks_py build --build-base /home/luis/my_ws/build/iarocks_py/build install --record /home/luis/my_ws/build/iarocks_py/install.log --single-version-externally-managed install_data
+[3.194s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/iarocks_py' for CMake config files
+[3.194s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/iarocks_py/lib'
+[3.195s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/iarocks_py/bin'
+[3.195s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/iarocks_py/lib/pkgconfig/iarocks_py.pc'
+[3.195s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/iarocks_py/lib/python3.12/site-packages'
+[3.195s] Level 1:colcon.colcon_core.shell:create_environment_hook('iarocks_py', 'pythonpath')
+[3.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/iarocks_py/share/iarocks_py/hook/pythonpath.ps1'
+[3.196s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/iarocks_py/share/iarocks_py/hook/pythonpath.dsv'
+[3.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/iarocks_py/share/iarocks_py/hook/pythonpath.sh'
+[3.198s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/iarocks_py/bin'
+[3.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iarocks_py)
+[3.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/iarocks_py/share/iarocks_py/package.ps1'
+[3.199s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luis/my_ws/install/iarocks_py/share/iarocks_py/package.dsv'
+[3.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/iarocks_py/share/iarocks_py/package.sh'
+[3.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/iarocks_py/share/iarocks_py/package.bash'
+[3.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/iarocks_py/share/iarocks_py/package.zsh'
+[3.201s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luis/my_ws/install/iarocks_py/share/colcon-core/packages/iarocks_py)
+[3.967s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/opencv_tests' for CMake module files
+[3.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luis/my_ws/src/vision_opencv/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luis/my_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luis/my_ws/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luis/my_ws/install/opencv_tests/lib/python3.12/site-packages:/home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/luis/my_ws/build/opencv_tests/build install --record /home/luis/my_ws/build/opencv_tests/install.log --single-version-externally-managed install_data
+[3.969s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/opencv_tests' for CMake config files
+[3.970s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/opencv_tests/lib'
+[3.970s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/opencv_tests/bin'
+[3.970s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/opencv_tests/lib/pkgconfig/opencv_tests.pc'
+[3.970s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/opencv_tests/lib/python3.12/site-packages'
+[3.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tests', 'pythonpath')
+[3.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/opencv_tests/share/opencv_tests/hook/pythonpath.ps1'
+[3.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luis/my_ws/install/opencv_tests/share/opencv_tests/hook/pythonpath.dsv'
+[3.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luis/my_ws/install/opencv_tests/share/opencv_tests/hook/pythonpath.sh'
+[3.973s] Level 1:colcon.colcon_core.environment:checking '/home/luis/my_ws/install/opencv_tests/bin'
+[3.973s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_tests)
+[3.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/opencv_tests/share/opencv_tests/package.ps1'
+[3.974s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luis/my_ws/install/opencv_tests/share/opencv_tests/package.dsv'
+[3.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/opencv_tests/share/opencv_tests/package.sh'
+[3.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/opencv_tests/share/opencv_tests/package.bash'
+[3.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/luis/my_ws/install/opencv_tests/share/opencv_tests/package.zsh'
+[3.977s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luis/my_ws/install/opencv_tests/share/colcon-core/packages/opencv_tests)
+[3.977s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.978s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.978s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.978s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.988s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.988s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.988s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.009s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.009s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luis/my_ws/install/local_setup.ps1'
+[4.011s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/luis/my_ws/install/_local_setup_util_ps1.py'
+[4.012s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luis/my_ws/install/setup.ps1'
+[4.014s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luis/my_ws/install/local_setup.sh'
+[4.015s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/luis/my_ws/install/_local_setup_util_sh.py'
+[4.016s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luis/my_ws/install/setup.sh'
+[4.017s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luis/my_ws/install/local_setup.bash'
+[4.018s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luis/my_ws/install/setup.bash'
+[4.019s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luis/my_ws/install/local_setup.zsh'
+[4.020s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luis/my_ws/install/setup.zsh'

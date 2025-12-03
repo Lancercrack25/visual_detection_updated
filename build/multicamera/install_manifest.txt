@@ -1,0 +1,17 @@
+/home/luis/my_ws/install/multicamera/lib/multicamera/camera_publisher
+/home/luis/my_ws/install/multicamera/lib/multicamera/camera_subscriber
+/home/luis/my_ws/install/multicamera/share/ament_index/resource_index/package_run_dependencies/multicamera
+/home/luis/my_ws/install/multicamera/share/ament_index/resource_index/parent_prefix_path/multicamera
+/home/luis/my_ws/install/multicamera/share/multicamera/environment/ament_prefix_path.sh
+/home/luis/my_ws/install/multicamera/share/multicamera/environment/ament_prefix_path.dsv
+/home/luis/my_ws/install/multicamera/share/multicamera/environment/path.sh
+/home/luis/my_ws/install/multicamera/share/multicamera/environment/path.dsv
+/home/luis/my_ws/install/multicamera/share/multicamera/local_setup.bash
+/home/luis/my_ws/install/multicamera/share/multicamera/local_setup.sh
+/home/luis/my_ws/install/multicamera/share/multicamera/local_setup.zsh
+/home/luis/my_ws/install/multicamera/share/multicamera/local_setup.dsv
+/home/luis/my_ws/install/multicamera/share/multicamera/package.dsv
+/home/luis/my_ws/install/multicamera/share/ament_index/resource_index/packages/multicamera
+/home/luis/my_ws/install/multicamera/share/multicamera/cmake/multicameraConfig.cmake
+/home/luis/my_ws/install/multicamera/share/multicamera/cmake/multicameraConfig-version.cmake
+/home/luis/my_ws/install/multicamera/share/multicamera/package.xml

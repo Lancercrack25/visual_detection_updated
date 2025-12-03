@@ -1,0 +1,17 @@
+/home/luis/my_ws/install/camara/lib/camara/camara_node
+/home/luis/my_ws/install/camara/lib/camara/subscriber
+/home/luis/my_ws/install/camara/share/ament_index/resource_index/package_run_dependencies/camara
+/home/luis/my_ws/install/camara/share/ament_index/resource_index/parent_prefix_path/camara
+/home/luis/my_ws/install/camara/share/camara/environment/ament_prefix_path.sh
+/home/luis/my_ws/install/camara/share/camara/environment/ament_prefix_path.dsv
+/home/luis/my_ws/install/camara/share/camara/environment/path.sh
+/home/luis/my_ws/install/camara/share/camara/environment/path.dsv
+/home/luis/my_ws/install/camara/share/camara/local_setup.bash
+/home/luis/my_ws/install/camara/share/camara/local_setup.sh
+/home/luis/my_ws/install/camara/share/camara/local_setup.zsh
+/home/luis/my_ws/install/camara/share/camara/local_setup.dsv
+/home/luis/my_ws/install/camara/share/camara/package.dsv
+/home/luis/my_ws/install/camara/share/ament_index/resource_index/packages/camara
+/home/luis/my_ws/install/camara/share/camara/cmake/camaraConfig.cmake
+/home/luis/my_ws/install/camara/share/camara/cmake/camaraConfig-version.cmake
+/home/luis/my_ws/install/camara/share/camara/package.xml

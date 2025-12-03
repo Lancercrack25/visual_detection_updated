@@ -1,0 +1,11 @@
+/home/luis/my_ws/build/camara/CMakeFiles/uninstall.dir
+/home/luis/my_ws/build/camara/CMakeFiles/camara_uninstall.dir
+/home/luis/my_ws/build/camara/CMakeFiles/camara_node.dir
+/home/luis/my_ws/build/camara/CMakeFiles/subscriber.dir
+/home/luis/my_ws/build/camara/CMakeFiles/test.dir
+/home/luis/my_ws/build/camara/CMakeFiles/edit_cache.dir
+/home/luis/my_ws/build/camara/CMakeFiles/rebuild_cache.dir
+/home/luis/my_ws/build/camara/CMakeFiles/list_install_components.dir
+/home/luis/my_ws/build/camara/CMakeFiles/install.dir
+/home/luis/my_ws/build/camara/CMakeFiles/install/local.dir
+/home/luis/my_ws/build/camara/CMakeFiles/install/strip.dir

@@ -1,0 +1,43 @@
+[1.641s] Invoking command in '/home/luis/my_ws/src/iarocks_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/luis/my_ws/build/iarocks_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luis/my_ws/install/iarocks_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/iarocks_py build --build-base /home/luis/my_ws/build/iarocks_py/build install --record /home/luis/my_ws/build/iarocks_py/install.log --single-version-externally-managed install_data
+[2.127s] running egg_info
+[2.127s] creating ../../build/iarocks_py/iarocks_py.egg-info
+[2.162s] writing ../../build/iarocks_py/iarocks_py.egg-info/PKG-INFO
+[2.162s] writing dependency_links to ../../build/iarocks_py/iarocks_py.egg-info/dependency_links.txt
+[2.163s] writing entry points to ../../build/iarocks_py/iarocks_py.egg-info/entry_points.txt
+[2.163s] writing requirements to ../../build/iarocks_py/iarocks_py.egg-info/requires.txt
+[2.163s] writing top-level names to ../../build/iarocks_py/iarocks_py.egg-info/top_level.txt
+[2.164s] writing manifest file '../../build/iarocks_py/iarocks_py.egg-info/SOURCES.txt'
+[2.236s] reading manifest file '../../build/iarocks_py/iarocks_py.egg-info/SOURCES.txt'
+[2.237s] writing manifest file '../../build/iarocks_py/iarocks_py.egg-info/SOURCES.txt'
+[2.238s] running build
+[2.238s] running build_py
+[2.238s] creating /home/luis/my_ws/build/iarocks_py/build
+[2.238s] creating /home/luis/my_ws/build/iarocks_py/build/lib
+[2.239s] creating /home/luis/my_ws/build/iarocks_py/build/lib/iarocks_py
+[2.239s] copying iarocks_py/logger.py -> /home/luis/my_ws/build/iarocks_py/build/lib/iarocks_py
+[2.240s] copying iarocks_py/__init__.py -> /home/luis/my_ws/build/iarocks_py/build/lib/iarocks_py
+[2.241s] copying iarocks_py/detection_node.py -> /home/luis/my_ws/build/iarocks_py/build/lib/iarocks_py
+[2.242s] copying iarocks_py/run_with_venv.py -> /home/luis/my_ws/build/iarocks_py/build/lib/iarocks_py
+[2.242s] running install
+[2.258s] running install_lib
+[2.295s] creating /home/luis/my_ws/install/iarocks_py/lib/python3.12/site-packages/iarocks_py
+[2.295s] copying /home/luis/my_ws/build/iarocks_py/build/lib/iarocks_py/logger.py -> /home/luis/my_ws/install/iarocks_py/lib/python3.12/site-packages/iarocks_py
+[2.295s] copying /home/luis/my_ws/build/iarocks_py/build/lib/iarocks_py/__init__.py -> /home/luis/my_ws/install/iarocks_py/lib/python3.12/site-packages/iarocks_py
+[2.296s] copying /home/luis/my_ws/build/iarocks_py/build/lib/iarocks_py/detection_node.py -> /home/luis/my_ws/install/iarocks_py/lib/python3.12/site-packages/iarocks_py
+[2.296s] copying /home/luis/my_ws/build/iarocks_py/build/lib/iarocks_py/run_with_venv.py -> /home/luis/my_ws/install/iarocks_py/lib/python3.12/site-packages/iarocks_py
+[2.296s] byte-compiling /home/luis/my_ws/install/iarocks_py/lib/python3.12/site-packages/iarocks_py/logger.py to logger.cpython-312.pyc
+[2.297s] byte-compiling /home/luis/my_ws/install/iarocks_py/lib/python3.12/site-packages/iarocks_py/__init__.py to __init__.cpython-312.pyc
+[2.297s] byte-compiling /home/luis/my_ws/install/iarocks_py/lib/python3.12/site-packages/iarocks_py/detection_node.py to detection_node.cpython-312.pyc
+[2.301s] byte-compiling /home/luis/my_ws/install/iarocks_py/lib/python3.12/site-packages/iarocks_py/run_with_venv.py to run_with_venv.cpython-312.pyc
+[2.301s] running install_data
+[2.302s] creating /home/luis/my_ws/install/iarocks_py/share/ament_index
+[2.302s] creating /home/luis/my_ws/install/iarocks_py/share/ament_index/resource_index
+[2.302s] creating /home/luis/my_ws/install/iarocks_py/share/ament_index/resource_index/packages
+[2.303s] copying resource/iarocks_py -> /home/luis/my_ws/install/iarocks_py/share/ament_index/resource_index/packages
+[2.303s] copying package.xml -> /home/luis/my_ws/install/iarocks_py/share/iarocks_py
+[2.303s] running install_egg_info
+[2.340s] Copying ../../build/iarocks_py/iarocks_py.egg-info to /home/luis/my_ws/install/iarocks_py/lib/python3.12/site-packages/iarocks_py-0.0.0-py3.12.egg-info
+[2.342s] running install_scripts
+[2.604s] Installing detection_node script to /home/luis/my_ws/install/iarocks_py/lib/iarocks_py
+[2.605s] writing list of installed files to '/home/luis/my_ws/build/iarocks_py/install.log'
+[2.669s] Invoked command in '/home/luis/my_ws/src/iarocks_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/luis/my_ws/build/iarocks_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luis/my_ws/install/iarocks_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/iarocks_py build --build-base /home/luis/my_ws/build/iarocks_py/build install --record /home/luis/my_ws/build/iarocks_py/install.log --single-version-externally-managed install_data

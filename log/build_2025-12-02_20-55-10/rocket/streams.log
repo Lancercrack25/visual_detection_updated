@@ -1,0 +1,24 @@
+[0.501s] Invoking command in '/home/luis/my_ws/build/rocket': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis/my_ws/install/opencv_tests:/home/luis/my_ws/install/iarocks_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luis/my_ws/build/rocket -- -j12 -l12
+[0.641s] [ 50%] Built target subscriberock
+[0.647s] [100%] Built target rocks_node
+[0.695s] Invoked command in '/home/luis/my_ws/build/rocket' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis/my_ws/install/opencv_tests:/home/luis/my_ws/install/iarocks_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luis/my_ws/build/rocket -- -j12 -l12
+[0.698s] Invoking command in '/home/luis/my_ws/build/rocket': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis/my_ws/install/opencv_tests:/home/luis/my_ws/install/iarocks_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luis/my_ws/build/rocket
+[0.721s] -- Install configuration: ""
+[0.722s] -- Up-to-date: /home/luis/my_ws/install/rocket/lib/rocket/rocks_node
+[0.722s] -- Up-to-date: /home/luis/my_ws/install/rocket/lib/rocket/subscriberock
+[0.722s] -- Up-to-date: /home/luis/my_ws/install/rocket/share/ament_index/resource_index/package_run_dependencies/rocket
+[0.722s] -- Up-to-date: /home/luis/my_ws/install/rocket/share/ament_index/resource_index/parent_prefix_path/rocket
+[0.722s] -- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/environment/ament_prefix_path.sh
+[0.723s] -- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/environment/ament_prefix_path.dsv
+[0.723s] -- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/environment/path.sh
+[0.723s] -- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/environment/path.dsv
+[0.723s] -- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/local_setup.bash
+[0.723s] -- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/local_setup.sh
+[0.723s] -- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/local_setup.zsh
+[0.724s] -- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/local_setup.dsv
+[0.724s] -- Installing: /home/luis/my_ws/install/rocket/share/rocket/package.dsv
+[0.724s] -- Up-to-date: /home/luis/my_ws/install/rocket/share/ament_index/resource_index/packages/rocket
+[0.724s] -- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/cmake/rocketConfig.cmake
+[0.724s] -- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/cmake/rocketConfig-version.cmake
+[0.724s] -- Up-to-date: /home/luis/my_ws/install/rocket/share/rocket/package.xml
+[0.728s] Invoked command in '/home/luis/my_ws/build/rocket' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis/my_ws/install/opencv_tests:/home/luis/my_ws/install/iarocks_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luis/my_ws/build/rocket

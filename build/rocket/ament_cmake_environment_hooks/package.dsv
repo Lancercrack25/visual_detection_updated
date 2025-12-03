@@ -1,0 +1,4 @@
+source;share/rocket/local_setup.bash
+source;share/rocket/local_setup.dsv
+source;share/rocket/local_setup.sh
+source;share/rocket/local_setup.zsh

@@ -1,0 +1,11 @@
+/home/luis/my_ws/build/multicamera/CMakeFiles/uninstall.dir
+/home/luis/my_ws/build/multicamera/CMakeFiles/multicamera_uninstall.dir
+/home/luis/my_ws/build/multicamera/CMakeFiles/camera_publisher.dir
+/home/luis/my_ws/build/multicamera/CMakeFiles/camera_subscriber.dir
+/home/luis/my_ws/build/multicamera/CMakeFiles/test.dir
+/home/luis/my_ws/build/multicamera/CMakeFiles/edit_cache.dir
+/home/luis/my_ws/build/multicamera/CMakeFiles/rebuild_cache.dir
+/home/luis/my_ws/build/multicamera/CMakeFiles/list_install_components.dir
+/home/luis/my_ws/build/multicamera/CMakeFiles/install.dir
+/home/luis/my_ws/build/multicamera/CMakeFiles/install/local.dir
+/home/luis/my_ws/build/multicamera/CMakeFiles/install/strip.dir

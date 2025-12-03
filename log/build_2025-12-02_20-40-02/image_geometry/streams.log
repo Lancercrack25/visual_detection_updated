@@ -1,0 +1,54 @@
+[0.061s] Invoking command in '/home/luis/my_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis/my_ws/install/opencv_tests:/home/luis/my_ws/install/iarocks_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luis/my_ws/build/image_geometry -- -j12 -l12
+[0.525s] [ 36%] Built target gtest_main
+[0.525s] [ 36%] Built target gtest
+[0.525s] [ 63%] Built target image_geometry
+[0.525s] [ 63%] Built target ament_cmake_python_copy_image_geometry
+[0.526s] [ 90%] Built target image_geometry-utest-equi
+[0.526s] [100%] Built target image_geometry-utest
+[0.642s] running egg_info
+[0.694s] writing image_geometry.egg-info/PKG-INFO
+[0.695s] writing dependency_links to image_geometry.egg-info/dependency_links.txt
+[0.695s] writing top-level names to image_geometry.egg-info/top_level.txt
+[0.833s] reading manifest file 'image_geometry.egg-info/SOURCES.txt'
+[0.835s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[0.896s] [100%] Built target ament_cmake_python_build_image_geometry_egg
+[0.923s] Invoked command in '/home/luis/my_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis/my_ws/install/opencv_tests:/home/luis/my_ws/install/iarocks_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luis/my_ws/build/image_geometry -- -j12 -l12
+[0.926s] Invoking command in '/home/luis/my_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis/my_ws/install/opencv_tests:/home/luis/my_ws/install/iarocks_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luis/my_ws/build/image_geometry
+[0.939s] -- Install configuration: ""
+[0.940s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[0.940s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[0.940s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/lib/python3.12/site-packages/image_geometry-4.1.0-py3.12.egg-info
+[0.941s] -- Installing: /home/luis/my_ws/install/image_geometry/lib/python3.12/site-packages/image_geometry-4.1.0-py3.12.egg-info/PKG-INFO
+[0.941s] -- Installing: /home/luis/my_ws/install/image_geometry/lib/python3.12/site-packages/image_geometry-4.1.0-py3.12.egg-info/SOURCES.txt
+[0.941s] -- Installing: /home/luis/my_ws/install/image_geometry/lib/python3.12/site-packages/image_geometry-4.1.0-py3.12.egg-info/top_level.txt
+[0.942s] -- Installing: /home/luis/my_ws/install/image_geometry/lib/python3.12/site-packages/image_geometry-4.1.0-py3.12.egg-info/dependency_links.txt
+[0.942s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/lib/python3.12/site-packages/image_geometry
+[0.942s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/lib/python3.12/site-packages/image_geometry/__init__.py
+[0.942s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/lib/python3.12/site-packages/image_geometry/cameramodels.py
+[1.014s] Listing '/home/luis/my_ws/install/image_geometry/lib/python3.12/site-packages/image_geometry'...
+[1.026s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/include/image_geometry
+[1.026s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/include/image_geometry/image_geometry
+[1.026s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/include/image_geometry/image_geometry/visibility_control.hpp
+[1.026s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/include/image_geometry/image_geometry/stereo_camera_model.hpp
+[1.027s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/include/image_geometry/image_geometry/pinhole_camera_model.hpp
+[1.027s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/lib/libimage_geometry.so
+[1.027s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[1.028s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[1.028s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[1.028s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[1.028s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/share/image_geometry/environment/path.sh
+[1.029s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/share/image_geometry/environment/path.dsv
+[1.029s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/share/image_geometry/local_setup.bash
+[1.029s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/share/image_geometry/local_setup.sh
+[1.029s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+[1.029s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/share/image_geometry/local_setup.dsv
+[1.030s] -- Installing: /home/luis/my_ws/install/image_geometry/share/image_geometry/package.dsv
+[1.030s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[1.030s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport.cmake
+[1.031s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport-noconfig.cmake
+[1.031s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_targets-extras.cmake
+[1.031s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.031s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[1.032s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[1.032s] -- Up-to-date: /home/luis/my_ws/install/image_geometry/share/image_geometry/package.xml
+[1.037s] Invoked command in '/home/luis/my_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luis/my_ws/install/opencv_tests:/home/luis/my_ws/install/iarocks_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luis/my_ws/build/image_geometry

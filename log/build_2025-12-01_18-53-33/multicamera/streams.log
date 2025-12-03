@@ -1,0 +1,27 @@
+[0.021s] Invoking command in '/home/luis/my_ws/build/multicamera': AMENT_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luis/my_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/luis/my_ws/build/multicamera -- -j12 -l12
+[0.380s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o[0m
+[0.381s] [ 75%] Built target camera_subscriber
+[6.154s] [32m[1mLinking CXX executable camera_publisher[0m
+[6.310s] Built target camera_publisher
+[6.320s] Invoked command in '/home/luis/my_ws/build/multicamera' returned '0': AMENT_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luis/my_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/luis/my_ws/build/multicamera -- -j12 -l12
+[6.321s] Invoking command in '/home/luis/my_ws/build/multicamera': AMENT_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luis/my_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/luis/my_ws/build/multicamera
+[6.328s] -- Install configuration: ""
+[6.328s] -- Installing: /home/luis/my_ws/install/multicamera/lib/multicamera/camera_publisher
+[6.330s] -- Set non-toolchain portion of runtime path of "/home/luis/my_ws/install/multicamera/lib/multicamera/camera_publisher" to ""
+[6.330s] -- Up-to-date: /home/luis/my_ws/install/multicamera/lib/multicamera/camera_subscriber
+[6.331s] -- Up-to-date: /home/luis/my_ws/install/multicamera/share/ament_index/resource_index/package_run_dependencies/multicamera
+[6.331s] -- Up-to-date: /home/luis/my_ws/install/multicamera/share/ament_index/resource_index/parent_prefix_path/multicamera
+[6.331s] -- Up-to-date: /home/luis/my_ws/install/multicamera/share/multicamera/environment/ament_prefix_path.sh
+[6.331s] -- Up-to-date: /home/luis/my_ws/install/multicamera/share/multicamera/environment/ament_prefix_path.dsv
+[6.331s] -- Up-to-date: /home/luis/my_ws/install/multicamera/share/multicamera/environment/path.sh
+[6.331s] -- Up-to-date: /home/luis/my_ws/install/multicamera/share/multicamera/environment/path.dsv
+[6.331s] -- Up-to-date: /home/luis/my_ws/install/multicamera/share/multicamera/local_setup.bash
+[6.331s] -- Up-to-date: /home/luis/my_ws/install/multicamera/share/multicamera/local_setup.sh
+[6.331s] -- Up-to-date: /home/luis/my_ws/install/multicamera/share/multicamera/local_setup.zsh
+[6.332s] -- Up-to-date: /home/luis/my_ws/install/multicamera/share/multicamera/local_setup.dsv
+[6.332s] -- Installing: /home/luis/my_ws/install/multicamera/share/multicamera/package.dsv
+[6.332s] -- Up-to-date: /home/luis/my_ws/install/multicamera/share/ament_index/resource_index/packages/multicamera
+[6.332s] -- Up-to-date: /home/luis/my_ws/install/multicamera/share/multicamera/cmake/multicameraConfig.cmake
+[6.332s] -- Up-to-date: /home/luis/my_ws/install/multicamera/share/multicamera/cmake/multicameraConfig-version.cmake
+[6.332s] -- Up-to-date: /home/luis/my_ws/install/multicamera/share/multicamera/package.xml
+[6.333s] Invoked command in '/home/luis/my_ws/build/multicamera' returned '0': AMENT_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luis/my_ws/install/cv_bridge:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luis/my_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luis/my_ws/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/luis/my_ws/build/multicamera

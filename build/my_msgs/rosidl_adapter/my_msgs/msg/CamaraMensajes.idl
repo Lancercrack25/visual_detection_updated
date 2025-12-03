@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_msgs/msg/CamaraMensajes.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/CompressedImage.idl"
+
+module my_msgs {
+  module msg {
+    struct CamaraMensajes {
+      string camera_id;
+
+      string image_format;
+
+      sensor_msgs::msg::CompressedImage image;
+    };
+  };
+};
